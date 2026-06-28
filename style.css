@@ -1,0 +1,69 @@
+.photo {
+  height: 200px;
+  width: auto;
+  border-radius: 10px;
+  margin: 0.5rem;
+}
+.listOfPlayers {
+  display: flex;
+  width: 30rem;
+  height: auto;
+  border: 4px dotted black;
+  margin: 1rem;
+  border-radius: 10px;
+}
+.playerPhoto {
+  height: 200px;
+  width: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.playerName {
+  font-weight: lighter;
+}
+.playerId {
+  font-weight: lighter;
+}
+.playerBreed {
+  font-weight: lighter;
+}
+.playerStatus {
+  font-weight: lighter;
+}
+.playerTeamName {
+  font-weight: lighter;
+}
+#content {
+  display: flex;
+  gap: 10rem;
+}
+#details {
+  margin-left: 20rem;
+}
+#details .playerPhoto {
+  height: 350px;
+  width: auto;
+}
+.listOfPlayers .playerName {
+  margin-left: 3rem;
+}
+.playerName.highlighted {
+  color: blue;
+}
+#firstHeader {
+  margin-left: 15rem;
+  font-size: 2rem;
+}
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  background-color: antiquewhite;
+  margin: 0;
+  width: 100%;
+}
+body {
+  margin: 0;
+}
+strong {
+  font-weight: bold;
+}

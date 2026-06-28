@@ -7,6 +7,57 @@
     <script src="index.js" defer></script>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <h1>Puppy Bowl</h1>
+      <div class="header">
+        <h2 id="firstHeader">Players</h2>
+      </div>
+      <div id="content">
+        <ul id="listOfPlayers"></ul>
+        <div id="details"></div>
+      </div>
+      <hr />
+      <p id="selectPlayer"></p>
+      <div class="highlighted"></div>
+      <hr />
+      <div>
+        <form id="puppyForm">
+          <h2>Add Puppy to Roster</h2>
+          <label>
+            Name:
+            <input type="text" name="pName" required />
+          </label>
+          <br />
+          <label>
+            Breed:
+            <input type="text" name="breed" required />
+          </label>
+          <br />
+          <label>
+            Status:
+            <select name="status" required>
+              <option value="default"></option>
+              <option value="bench">Bench</option>
+              <option value="field">field</option>
+            </select>
+          </label>
+          <br />
+          <label>
+            imageUrl:
+            <input type="url" name="imageUrl" required />
+          </label>
+          <br />
+          <label for="teamSelect">
+            Select Team:
+            <select name="teamId" id="teamSelect" required>
+              <option value=""></option>
+              <option value="bubbles">Select a team</option>
+            </select>
+          </label>
+          <br />
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
